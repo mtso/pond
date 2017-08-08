@@ -1,0 +1,39 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: lightblue;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100%;
+}
+
+body {
+  pointer-events: none;
+}
+
+h1 {
+  font-weight: bold;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+  margin-left: 25px;
+  pointer-events: auto;
+}
+
+a:hover {
+  opacity: 0.5;
+}
